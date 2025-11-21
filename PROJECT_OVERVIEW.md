@@ -7,7 +7,67 @@ FARMIS is an Android application designed for monitoring farm conditions through
 ✅ **Working**: App displays sample data with charts  
 ✅ **Fixed**: Network dependency issues resolved  
 ✅ **Fixed**: Layout crashes resolved  
+✅ **NEW**: Added 6 comprehensive farmer-focused features  
 ⚠️ **Note**: Currently showing sample data instead of live server data  
+
+## New Features Added
+
+### 1. **Weather Forecasting** 🌤️
+- **Location**: `WeatherActivity.java`
+- **Features**:
+  - Current weather conditions with farming advice
+  - 7-day detailed forecast
+  - Temperature highs/lows
+  - Farming recommendations based on weather
+  - Weather-specific farming tips
+
+### 2. **Market Prices (APMC)** 📈
+- **Location**: `MarketPricesActivity.java`
+- **Features**:
+  - Real-time crop prices from nearby mandis
+  - Price trends with up/down indicators
+  - Comparison with previous day prices
+  - Support for 10+ major crops
+  - Color-coded price changes
+
+### 3. **Government Schemes** 🏛️
+- **Location**: `GovernmentSchemesActivity.java`
+- **Features**:
+  - PM-KISAN scheme details and application
+  - Soil Health Card information
+  - Crop insurance (Fasal Bima Yojana)
+  - Kisan Credit Card details
+  - Pension schemes for farmers
+  - e-NAM platform information
+
+### 4. **Marketplace** 🛒
+- **Location**: `MarketplaceActivity.java`
+- **Features**:
+  - E-commerce platform for farming supplies
+  - Buy/sell seeds, fertilizers, tools
+  - Direct produce selling to buyers
+  - Price comparison across vendors
+  - Secure payment integration (planned)
+
+### 5. **Farmer Community** 👥
+- **Location**: `CommunityActivity.java`
+- **Features**:
+  - Social platform for farmers
+  - Post queries and get expert answers
+  - Share farming experiences and tips
+  - Connect with local farmers
+  - Discussion groups by crop type
+  - Real-time help during farming seasons
+
+### 6. **Knowledge Base** 📚
+- **Location**: `KnowledgeActivity.java`
+- **Features**:
+  - Agricultural articles and research
+  - Modern farming techniques
+  - Government publications
+  - Video tutorials
+  - Best practices guides
+  - Crop advisory content
 
 ## App Architecture
 

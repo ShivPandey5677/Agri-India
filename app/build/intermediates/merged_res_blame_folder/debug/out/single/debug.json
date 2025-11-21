@@ -8,16 +8,16 @@
         "source": "C:\\Users\\Asus\\.gradle\\daemon\\8.0\\arpit.com.farmis.app-main-35:\\mipmap-xxhdpi\\ic_launcher.png"
     },
     {
-        "merged": "arpit.com.farmis.app-merged_res-33:/layout_card.xml.flat",
-        "source": "arpit.com.farmis.app-main-35:/layout/card.xml"
-    },
-    {
         "merged": "C:\\Users\\Asus\\.gradle\\daemon\\8.0\\arpit.com.farmis.app-merged_res-33:\\drawable-v24_home.jpg.flat",
         "source": "C:\\Users\\Asus\\.gradle\\daemon\\8.0\\arpit.com.farmis.app-main-35:\\drawable-v24\\home.jpg"
     },
     {
         "merged": "C:\\Users\\Asus\\.gradle\\daemon\\8.0\\arpit.com.farmis.app-merged_res-33:\\drawable_ic_arrow_up_water_level.xml.flat",
         "source": "C:\\Users\\Asus\\.gradle\\daemon\\8.0\\arpit.com.farmis.app-main-35:\\drawable\\ic_arrow_up_water_level.xml"
+    },
+    {
+        "merged": "C:\\Users\\Asus\\.gradle\\daemon\\8.0\\arpit.com.farmis.app-merged_res-33:\\layout_item_government_scheme.xml.flat",
+        "source": "C:\\Users\\Asus\\.gradle\\daemon\\8.0\\arpit.com.farmis.app-main-35:\\layout\\item_government_scheme.xml"
     },
     {
         "merged": "C:\\Users\\Asus\\.gradle\\daemon\\8.0\\arpit.com.farmis.app-merged_res-33:\\drawable_ic_launcher_background.xml.flat",
@@ -56,12 +56,24 @@
         "source": "C:\\Users\\Asus\\.gradle\\daemon\\8.0\\arpit.com.farmis.app-main-35:\\drawable\\ic_menu_manage.xml"
     },
     {
+        "merged": "C:\\Users\\Asus\\.gradle\\daemon\\8.0\\arpit.com.farmis.app-merged_res-33:\\layout_activity_simple.xml.flat",
+        "source": "C:\\Users\\Asus\\.gradle\\daemon\\8.0\\arpit.com.farmis.app-main-35:\\layout\\activity_simple.xml"
+    },
+    {
         "merged": "C:\\Users\\Asus\\.gradle\\daemon\\8.0\\arpit.com.farmis.app-merged_res-33:\\font_lato.ttf.flat",
         "source": "C:\\Users\\Asus\\.gradle\\daemon\\8.0\\arpit.com.farmis.app-main-35:\\font\\lato.ttf"
     },
     {
+        "merged": "C:\\Users\\Asus\\.gradle\\daemon\\8.0\\arpit.com.farmis.app-merged_res-33:\\layout_item_weather.xml.flat",
+        "source": "C:\\Users\\Asus\\.gradle\\daemon\\8.0\\arpit.com.farmis.app-main-35:\\layout\\item_weather.xml"
+    },
+    {
         "merged": "C:\\Users\\Asus\\.gradle\\daemon\\8.0\\arpit.com.farmis.app-merged_res-33:\\drawable_phone.xml.flat",
         "source": "C:\\Users\\Asus\\.gradle\\daemon\\8.0\\arpit.com.farmis.app-main-35:\\drawable\\phone.xml"
+    },
+    {
+        "merged": "arpit.com.farmis.app-merged_res-33:/layout_app_bar_main.xml.flat",
+        "source": "arpit.com.farmis.app-main-35:/layout/app_bar_main.xml"
     },
     {
         "merged": "C:\\Users\\Asus\\.gradle\\daemon\\8.0\\arpit.com.farmis.app-merged_res-33:\\drawable_ic_humidity.xml.flat",
@@ -70,6 +82,14 @@
     {
         "merged": "C:\\Users\\Asus\\.gradle\\daemon\\8.0\\arpit.com.farmis.app-merged_res-33:\\drawable_ic_menu_gallery.xml.flat",
         "source": "C:\\Users\\Asus\\.gradle\\daemon\\8.0\\arpit.com.farmis.app-main-35:\\drawable\\ic_menu_gallery.xml"
+    },
+    {
+        "merged": "C:\\Users\\Asus\\.gradle\\daemon\\8.0\\arpit.com.farmis.app-merged_res-33:\\layout_activity_weather.xml.flat",
+        "source": "C:\\Users\\Asus\\.gradle\\daemon\\8.0\\arpit.com.farmis.app-main-35:\\layout\\activity_weather.xml"
+    },
+    {
+        "merged": "arpit.com.farmis.app-merged_res-33:/drawable_ic_menu_hamburger.xml.flat",
+        "source": "arpit.com.farmis.app-main-35:/drawable/ic_menu_hamburger.xml"
     },
     {
         "merged": "C:\\Users\\Asus\\.gradle\\daemon\\8.0\\arpit.com.farmis.app-merged_res-33:\\layout_nav_header_main.xml.flat",
@@ -82,6 +102,10 @@
     {
         "merged": "C:\\Users\\Asus\\.gradle\\daemon\\8.0\\arpit.com.farmis.app-merged_res-33:\\xml_network_security_config.xml.flat",
         "source": "C:\\Users\\Asus\\.gradle\\daemon\\8.0\\arpit.com.farmis.app-main-35:\\xml\\network_security_config.xml"
+    },
+    {
+        "merged": "C:\\Users\\Asus\\.gradle\\daemon\\8.0\\arpit.com.farmis.app-merged_res-33:\\layout_activity_market_prices.xml.flat",
+        "source": "C:\\Users\\Asus\\.gradle\\daemon\\8.0\\arpit.com.farmis.app-main-35:\\layout\\activity_market_prices.xml"
     },
     {
         "merged": "C:\\Users\\Asus\\.gradle\\daemon\\8.0\\arpit.com.farmis.app-merged_res-33:\\drawable_homee.jpg.flat",
@@ -102,6 +126,10 @@
     {
         "merged": "C:\\Users\\Asus\\.gradle\\daemon\\8.0\\arpit.com.farmis.app-merged_res-33:\\drawable_ic_menu_camera.xml.flat",
         "source": "C:\\Users\\Asus\\.gradle\\daemon\\8.0\\arpit.com.farmis.app-main-35:\\drawable\\ic_menu_camera.xml"
+    },
+    {
+        "merged": "C:\\Users\\Asus\\.gradle\\daemon\\8.0\\arpit.com.farmis.app-merged_res-33:\\layout_activity_government_schemes.xml.flat",
+        "source": "C:\\Users\\Asus\\.gradle\\daemon\\8.0\\arpit.com.farmis.app-main-35:\\layout\\activity_government_schemes.xml"
     },
     {
         "merged": "C:\\Users\\Asus\\.gradle\\daemon\\8.0\\arpit.com.farmis.app-merged_res-33:\\mipmap-hdpi_ic_launcher.png.flat",
@@ -150,5 +178,9 @@
     {
         "merged": "C:\\Users\\Asus\\.gradle\\daemon\\8.0\\arpit.com.farmis.app-merged_res-33:\\mipmap-xxxhdpi_ic_launcher.png.flat",
         "source": "C:\\Users\\Asus\\.gradle\\daemon\\8.0\\arpit.com.farmis.app-main-35:\\mipmap-xxxhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\Asus\\.gradle\\daemon\\8.0\\arpit.com.farmis.app-merged_res-33:\\layout_item_market_price.xml.flat",
+        "source": "C:\\Users\\Asus\\.gradle\\daemon\\8.0\\arpit.com.farmis.app-main-35:\\layout\\item_market_price.xml"
     }
 ]

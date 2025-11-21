@@ -23,6 +23,7 @@ import android.view.MenuItem;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageView;
+import android.widget.TextView;
 
 import com.afollestad.materialdialogs.DialogAction;
 import com.afollestad.materialdialogs.MaterialDialog;
@@ -54,18 +55,26 @@ public class MainActivity extends AppCompatActivity
         binding = ActivityMainBinding.inflate(getLayoutInflater());
         setContentView(binding.getRoot());
 
+        // Simple toolbar setup
         setSupportActionBar(binding.appBarMain.toolbar);
         getSupportActionBar().setTitle("");
-
-        ActionBarDrawerToggle toggle = new ActionBarDrawerToggle(
-                this, binding.drawerLayout, binding.appBarMain.toolbar, R.string.navigation_drawer_open, R.string.navigation_drawer_close);
-        binding.drawerLayout.addDrawerListener(toggle);
-        toggle.syncState();
 
         // Skip network call and load dummy data directly
         loadDefaultData();
 
         binding.navView.setNavigationItemSelectedListener(this);
+
+        // Test: Add click listener to FAB to open drawer manually
+        binding.appBarMain.fab.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                if (binding.drawerLayout.isDrawerOpen(GravityCompat.START)) {
+                    binding.drawerLayout.closeDrawer(GravityCompat.START);
+                } else {
+                    binding.drawerLayout.openDrawer(GravityCompat.START);
+                }
+            }
+        });
 
         View bottomSheet = findViewById(R.id.home_logs_container);
         mBottomSheetBehavior = BottomSheetBehavior.from(bottomSheet);
@@ -100,21 +109,12 @@ public class MainActivity extends AppCompatActivity
     }
 
     public void fabClick(View view) {
-         new MaterialStyledDialog.Builder(this)
-                .setTitle(R.string.dialog_title)
-                .setDescription(R.string.dialog_desc)
-                .setIcon(R.drawable.ic_supervisor_account_black_24dp)
-                .withIconAnimation(true)
-                .setPositiveText(R.string.call_now)
-                .onPositive(new MaterialDialog.SingleButtonCallback() {
-                    @Override
-                    public void onClick(@NonNull MaterialDialog dialog, @NonNull DialogAction which) {
-                        Intent callIntent = new Intent(Intent.ACTION_CALL);
-                        callIntent.setData(Uri.parse("tel:1376936363"));
-                        startActivity(callIntent);
-                    }})
-                .show();
-
+        // FAB is the main navigation button
+        if (binding.drawerLayout.isDrawerOpen(GravityCompat.START)) {
+            binding.drawerLayout.closeDrawer(GravityCompat.START);
+        } else {
+            binding.drawerLayout.openDrawer(GravityCompat.START);
+        }
     }
 
     @Override
@@ -135,12 +135,8 @@ public class MainActivity extends AppCompatActivity
 
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
-        // Handle action bar item clicks here. The action bar will
-        // automatically handle clicks on the Home/Up button, so long
-        // as you specify a parent activity in AndroidManifest.xml.
         int id = item.getItemId();
 
-        //noinspection SimplifiableIfStatement
         if (id == R.id.action_settings) {
             Intent i = new Intent(MainActivity.this, Alert.class);
             return true;
@@ -155,18 +151,26 @@ public class MainActivity extends AppCompatActivity
         // Handle navigation view item clicks here.
         int id = item.getItemId();
 
-        if (id == R.id.nav_camera) {
-            // Handle the camera action
-        } else if (id == R.id.nav_gallery) {
-
-        } else if (id == R.id.nav_slideshow) {
-
-        } else if (id == R.id.nav_manage) {
-
-        } else if (id == R.id.nav_share) {
-
-        } else if (id == R.id.nav_send) {
-
+        if (id == R.id.nav_dashboard) {
+            // Already on dashboard - do nothing
+        } else if (id == R.id.nav_weather) {
+            Intent weatherIntent = new Intent(MainActivity.this, WeatherActivity.class);
+            startActivity(weatherIntent);
+        } else if (id == R.id.nav_prices) {
+            Intent pricesIntent = new Intent(MainActivity.this, MarketPricesActivity.class);
+            startActivity(pricesIntent);
+        } else if (id == R.id.nav_schemes) {
+            Intent schemesIntent = new Intent(MainActivity.this, GovernmentSchemesActivity.class);
+            startActivity(schemesIntent);
+        } else if (id == R.id.nav_marketplace) {
+            Intent marketplaceIntent = new Intent(MainActivity.this, MarketplaceActivity.class);
+            startActivity(marketplaceIntent);
+        } else if (id == R.id.nav_community) {
+            Intent communityIntent = new Intent(MainActivity.this, CommunityActivity.class);
+            startActivity(communityIntent);
+        } else if (id == R.id.nav_knowledge) {
+            Intent knowledgeIntent = new Intent(MainActivity.this, KnowledgeActivity.class);
+            startActivity(knowledgeIntent);
         }
 
         binding.drawerLayout.closeDrawer(GravityCompat.START);
@@ -203,15 +207,12 @@ public class MainActivity extends AppCompatActivity
         } else {
             // Network failed, load default data
             Log.d(TAG, "Network request failed, loading default data");
-            runOnUiThread(new Runnable() {
-                @Override
-                public void run() {
-                    Toast.makeText(MainActivity.this, "Unable to connect to server. Showing sample data.", Toast.LENGTH_LONG).show();
-                }
-            });
+            // Network failed, load default data silently
             loadDefaultData();
         }
     }
+
+
 
     private void loadDefaultData() {
         // Create realistic sample farm data
@@ -253,7 +254,6 @@ public class MainActivity extends AppCompatActivity
             @Override
             public void run() {
                 loadRVCard(item);
-                Toast.makeText(MainActivity.this, "Showing sample farm data", Toast.LENGTH_SHORT).show();
             }
         });
     }

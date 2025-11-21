@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\Asus\Downloads\mad\AAGS--Lets-Green-It\App\app\src\main\AndroidManifest.xml:2:1-33:12
-INJECTED from C:\Users\Asus\Downloads\mad\AAGS--Lets-Green-It\App\app\src\main\AndroidManifest.xml:2:1-33:12
-INJECTED from C:\Users\Asus\Downloads\mad\AAGS--Lets-Green-It\App\app\src\main\AndroidManifest.xml:2:1-33:12
-INJECTED from C:\Users\Asus\Downloads\mad\AAGS--Lets-Green-It\App\app\src\main\AndroidManifest.xml:2:1-33:12
+ADDED from C:\Users\Asus\Downloads\mad\AAGS--Lets-Green-It\App\app\src\main\AndroidManifest.xml:2:1-69:12
+INJECTED from C:\Users\Asus\Downloads\mad\AAGS--Lets-Green-It\App\app\src\main\AndroidManifest.xml:2:1-69:12
+INJECTED from C:\Users\Asus\Downloads\mad\AAGS--Lets-Green-It\App\app\src\main\AndroidManifest.xml:2:1-69:12
+INJECTED from C:\Users\Asus\Downloads\mad\AAGS--Lets-Green-It\App\app\src\main\AndroidManifest.xml:2:1-69:12
 MERGED from [androidx.databinding:viewbinding:8.0.0] C:\Users\Asus\.gradle\caches\transforms-3\c970445e621aad3d352f18b9bd18e583\transformed\jetified-viewbinding-8.0.0\AndroidManifest.xml:2:1-7:12
 MERGED from [com.google.android.material:material:1.8.0] C:\Users\Asus\.gradle\caches\transforms-3\5800723dc4faa2d5011bdab6ca0a6e33\transformed\material-1.8.0\AndroidManifest.xml:17:1-26:12
 MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] C:\Users\Asus\.gradle\caches\transforms-3\c741d4dee3fe7e067c4435af187544c4\transformed\constraintlayout-2.1.4\AndroidManifest.xml:2:1-11:12
@@ -58,20 +58,20 @@ MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\User
 MERGED from [androidx.print:print:1.0.0] C:\Users\Asus\.gradle\caches\transforms-3\d33e578e15ee93f12866b89b11cc0d43\transformed\print-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\Asus\.gradle\caches\transforms-3\df8f5eef9a59de3d86dc02a5f1c43213\transformed\interpolator-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.annotation:annotation-experimental:1.3.0] C:\Users\Asus\.gradle\caches\transforms-3\f45907b2b8b426caeac79c955fce571e\transformed\jetified-annotation-experimental-1.3.0\AndroidManifest.xml:17:1-22:12
-INJECTED from C:\Users\Asus\Downloads\mad\AAGS--Lets-Green-It\App\app\src\main\AndroidManifest.xml:2:1-33:12
-INJECTED from C:\Users\Asus\Downloads\mad\AAGS--Lets-Green-It\App\app\src\main\AndroidManifest.xml:2:1-33:12
-INJECTED from C:\Users\Asus\Downloads\mad\AAGS--Lets-Green-It\App\app\src\main\AndroidManifest.xml:2:1-33:12
+INJECTED from C:\Users\Asus\Downloads\mad\AAGS--Lets-Green-It\App\app\src\main\AndroidManifest.xml:2:1-69:12
+INJECTED from C:\Users\Asus\Downloads\mad\AAGS--Lets-Green-It\App\app\src\main\AndroidManifest.xml:2:1-69:12
+INJECTED from C:\Users\Asus\Downloads\mad\AAGS--Lets-Green-It\App\app\src\main\AndroidManifest.xml:2:1-69:12
 	package
 		INJECTED from C:\Users\Asus\Downloads\mad\AAGS--Lets-Green-It\App\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\Asus\Downloads\mad\AAGS--Lets-Green-It\App\app\src\main\AndroidManifest.xml:2:1-33:12
+		ADDED from C:\Users\Asus\Downloads\mad\AAGS--Lets-Green-It\App\app\src\main\AndroidManifest.xml:2:1-69:12
 		INJECTED from C:\Users\Asus\Downloads\mad\AAGS--Lets-Green-It\App\app\src\main\AndroidManifest.xml
 	android:versionName
 		INJECTED from C:\Users\Asus\Downloads\mad\AAGS--Lets-Green-It\App\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\Asus\Downloads\mad\AAGS--Lets-Green-It\App\app\src\main\AndroidManifest.xml:2:1-33:12
+		ADDED from C:\Users\Asus\Downloads\mad\AAGS--Lets-Green-It\App\app\src\main\AndroidManifest.xml:2:1-69:12
 		INJECTED from C:\Users\Asus\Downloads\mad\AAGS--Lets-Green-It\App\app\src\main\AndroidManifest.xml
 	android:versionCode
 		INJECTED from C:\Users\Asus\Downloads\mad\AAGS--Lets-Green-It\App\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\Asus\Downloads\mad\AAGS--Lets-Green-It\App\app\src\main\AndroidManifest.xml:2:1-33:12
+		ADDED from C:\Users\Asus\Downloads\mad\AAGS--Lets-Green-It\App\app\src\main\AndroidManifest.xml:2:1-69:12
 		INJECTED from C:\Users\Asus\Downloads\mad\AAGS--Lets-Green-It\App\app\src\main\AndroidManifest.xml
 	xmlns:android
 		ADDED from C:\Users\Asus\Downloads\mad\AAGS--Lets-Green-It\App\app\src\main\AndroidManifest.xml:2:11-69
@@ -96,7 +96,7 @@ ADDED from C:\Users\Asus\Downloads\mad\AAGS--Lets-Green-It\App\app\src\main\Andr
 	android:name
 		ADDED from C:\Users\Asus\Downloads\mad\AAGS--Lets-Green-It\App\app\src\main\AndroidManifest.xml:9:22-63
 application
-ADDED from C:\Users\Asus\Downloads\mad\AAGS--Lets-Green-It\App\app\src\main\AndroidManifest.xml:11:5-31:19
+ADDED from C:\Users\Asus\Downloads\mad\AAGS--Lets-Green-It\App\app\src\main\AndroidManifest.xml:11:5-67:19
 MERGED from [com.google.android.material:material:1.8.0] C:\Users\Asus\.gradle\caches\transforms-3\5800723dc4faa2d5011bdab6ca0a6e33\transformed\material-1.8.0\AndroidManifest.xml:24:5-20
 MERGED from [com.google.android.material:material:1.8.0] C:\Users\Asus\.gradle\caches\transforms-3\5800723dc4faa2d5011bdab6ca0a6e33\transformed\material-1.8.0\AndroidManifest.xml:24:5-20
 MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] C:\Users\Asus\.gradle\caches\transforms-3\c741d4dee3fe7e067c4435af187544c4\transformed\constraintlayout-2.1.4\AndroidManifest.xml:9:5-20
@@ -159,6 +159,66 @@ category#android.intent.category.LAUNCHER
 ADDED from C:\Users\Asus\Downloads\mad\AAGS--Lets-Green-It\App\app\src\main\AndroidManifest.xml:28:17-77
 	android:name
 		ADDED from C:\Users\Asus\Downloads\mad\AAGS--Lets-Green-It\App\app\src\main\AndroidManifest.xml:28:27-74
+activity#arpit.com.farmis.WeatherActivity
+ADDED from C:\Users\Asus\Downloads\mad\AAGS--Lets-Green-It\App\app\src\main\AndroidManifest.xml:32:9-36:58
+	android:parentActivityName
+		ADDED from C:\Users\Asus\Downloads\mad\AAGS--Lets-Green-It\App\app\src\main\AndroidManifest.xml:36:13-55
+	android:label
+		ADDED from C:\Users\Asus\Downloads\mad\AAGS--Lets-Green-It\App\app\src\main\AndroidManifest.xml:34:13-45
+	android:theme
+		ADDED from C:\Users\Asus\Downloads\mad\AAGS--Lets-Green-It\App\app\src\main\AndroidManifest.xml:35:13-56
+	android:name
+		ADDED from C:\Users\Asus\Downloads\mad\AAGS--Lets-Green-It\App\app\src\main\AndroidManifest.xml:33:13-44
+activity#arpit.com.farmis.MarketPricesActivity
+ADDED from C:\Users\Asus\Downloads\mad\AAGS--Lets-Green-It\App\app\src\main\AndroidManifest.xml:38:9-42:58
+	android:parentActivityName
+		ADDED from C:\Users\Asus\Downloads\mad\AAGS--Lets-Green-It\App\app\src\main\AndroidManifest.xml:42:13-55
+	android:label
+		ADDED from C:\Users\Asus\Downloads\mad\AAGS--Lets-Green-It\App\app\src\main\AndroidManifest.xml:40:13-42
+	android:theme
+		ADDED from C:\Users\Asus\Downloads\mad\AAGS--Lets-Green-It\App\app\src\main\AndroidManifest.xml:41:13-56
+	android:name
+		ADDED from C:\Users\Asus\Downloads\mad\AAGS--Lets-Green-It\App\app\src\main\AndroidManifest.xml:39:13-49
+activity#arpit.com.farmis.GovernmentSchemesActivity
+ADDED from C:\Users\Asus\Downloads\mad\AAGS--Lets-Green-It\App\app\src\main\AndroidManifest.xml:44:9-48:58
+	android:parentActivityName
+		ADDED from C:\Users\Asus\Downloads\mad\AAGS--Lets-Green-It\App\app\src\main\AndroidManifest.xml:48:13-55
+	android:label
+		ADDED from C:\Users\Asus\Downloads\mad\AAGS--Lets-Green-It\App\app\src\main\AndroidManifest.xml:46:13-47
+	android:theme
+		ADDED from C:\Users\Asus\Downloads\mad\AAGS--Lets-Green-It\App\app\src\main\AndroidManifest.xml:47:13-56
+	android:name
+		ADDED from C:\Users\Asus\Downloads\mad\AAGS--Lets-Green-It\App\app\src\main\AndroidManifest.xml:45:13-54
+activity#arpit.com.farmis.MarketplaceActivity
+ADDED from C:\Users\Asus\Downloads\mad\AAGS--Lets-Green-It\App\app\src\main\AndroidManifest.xml:50:9-54:58
+	android:parentActivityName
+		ADDED from C:\Users\Asus\Downloads\mad\AAGS--Lets-Green-It\App\app\src\main\AndroidManifest.xml:54:13-55
+	android:label
+		ADDED from C:\Users\Asus\Downloads\mad\AAGS--Lets-Green-It\App\app\src\main\AndroidManifest.xml:52:13-40
+	android:theme
+		ADDED from C:\Users\Asus\Downloads\mad\AAGS--Lets-Green-It\App\app\src\main\AndroidManifest.xml:53:13-56
+	android:name
+		ADDED from C:\Users\Asus\Downloads\mad\AAGS--Lets-Green-It\App\app\src\main\AndroidManifest.xml:51:13-48
+activity#arpit.com.farmis.CommunityActivity
+ADDED from C:\Users\Asus\Downloads\mad\AAGS--Lets-Green-It\App\app\src\main\AndroidManifest.xml:56:9-60:58
+	android:parentActivityName
+		ADDED from C:\Users\Asus\Downloads\mad\AAGS--Lets-Green-It\App\app\src\main\AndroidManifest.xml:60:13-55
+	android:label
+		ADDED from C:\Users\Asus\Downloads\mad\AAGS--Lets-Green-It\App\app\src\main\AndroidManifest.xml:58:13-45
+	android:theme
+		ADDED from C:\Users\Asus\Downloads\mad\AAGS--Lets-Green-It\App\app\src\main\AndroidManifest.xml:59:13-56
+	android:name
+		ADDED from C:\Users\Asus\Downloads\mad\AAGS--Lets-Green-It\App\app\src\main\AndroidManifest.xml:57:13-46
+activity#arpit.com.farmis.KnowledgeActivity
+ADDED from C:\Users\Asus\Downloads\mad\AAGS--Lets-Green-It\App\app\src\main\AndroidManifest.xml:62:9-66:58
+	android:parentActivityName
+		ADDED from C:\Users\Asus\Downloads\mad\AAGS--Lets-Green-It\App\app\src\main\AndroidManifest.xml:66:13-55
+	android:label
+		ADDED from C:\Users\Asus\Downloads\mad\AAGS--Lets-Green-It\App\app\src\main\AndroidManifest.xml:64:13-43
+	android:theme
+		ADDED from C:\Users\Asus\Downloads\mad\AAGS--Lets-Green-It\App\app\src\main\AndroidManifest.xml:65:13-56
+	android:name
+		ADDED from C:\Users\Asus\Downloads\mad\AAGS--Lets-Green-It\App\app\src\main\AndroidManifest.xml:63:13-46
 uses-sdk
 INJECTED from C:\Users\Asus\Downloads\mad\AAGS--Lets-Green-It\App\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from C:\Users\Asus\Downloads\mad\AAGS--Lets-Green-It\App\app\src\main\AndroidManifest.xml

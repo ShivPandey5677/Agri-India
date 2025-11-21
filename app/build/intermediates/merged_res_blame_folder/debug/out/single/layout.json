@@ -8,16 +8,24 @@
         "source": "C:\\Users\\Asus\\.gradle\\daemon\\8.0\\arpit.com.farmis.app-main-35:\\layout\\activity_main.xml"
     },
     {
-        "merged": "C:\\Users\\Asus\\.gradle\\daemon\\8.0\\arpit.com.farmis.app-mergeDebugResources-32:\\layout\\card.xml",
-        "source": "C:\\Users\\Asus\\.gradle\\daemon\\8.0\\arpit.com.farmis.app-main-35:\\layout\\card.xml"
-    },
-    {
-        "merged": "arpit.com.farmis.app-mergeDebugResources-32:/layout/card.xml",
-        "source": "arpit.com.farmis.app-main-35:/layout/card.xml"
+        "merged": "C:\\Users\\Asus\\.gradle\\daemon\\8.0\\arpit.com.farmis.app-mergeDebugResources-32:\\layout\\activity_simple.xml",
+        "source": "C:\\Users\\Asus\\.gradle\\daemon\\8.0\\arpit.com.farmis.app-main-35:\\layout\\activity_simple.xml"
     },
     {
         "merged": "C:\\Users\\Asus\\.gradle\\daemon\\8.0\\arpit.com.farmis.app-mergeDebugResources-32:\\layout\\content_main.xml",
         "source": "C:\\Users\\Asus\\.gradle\\daemon\\8.0\\arpit.com.farmis.app-main-35:\\layout\\content_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\Asus\\.gradle\\daemon\\8.0\\arpit.com.farmis.app-mergeDebugResources-32:\\layout\\activity_market_prices.xml",
+        "source": "C:\\Users\\Asus\\.gradle\\daemon\\8.0\\arpit.com.farmis.app-main-35:\\layout\\activity_market_prices.xml"
+    },
+    {
+        "merged": "arpit.com.farmis.app-mergeDebugResources-32:/layout/app_bar_main.xml",
+        "source": "arpit.com.farmis.app-main-35:/layout/app_bar_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\Asus\\.gradle\\daemon\\8.0\\arpit.com.farmis.app-mergeDebugResources-32:\\layout\\activity_government_schemes.xml",
+        "source": "C:\\Users\\Asus\\.gradle\\daemon\\8.0\\arpit.com.farmis.app-main-35:\\layout\\activity_government_schemes.xml"
     },
     {
         "merged": "C:\\Users\\Asus\\.gradle\\daemon\\8.0\\arpit.com.farmis.app-mergeDebugResources-32:\\layout\\nav_header_main.xml",
@@ -26,5 +34,25 @@
     {
         "merged": "C:\\Users\\Asus\\.gradle\\daemon\\8.0\\arpit.com.farmis.app-mergeDebugResources-32:\\layout\\app_bar_main.xml",
         "source": "C:\\Users\\Asus\\.gradle\\daemon\\8.0\\arpit.com.farmis.app-main-35:\\layout\\app_bar_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\Asus\\.gradle\\daemon\\8.0\\arpit.com.farmis.app-mergeDebugResources-32:\\layout\\item_weather.xml",
+        "source": "C:\\Users\\Asus\\.gradle\\daemon\\8.0\\arpit.com.farmis.app-main-35:\\layout\\item_weather.xml"
+    },
+    {
+        "merged": "C:\\Users\\Asus\\.gradle\\daemon\\8.0\\arpit.com.farmis.app-mergeDebugResources-32:\\layout\\card.xml",
+        "source": "C:\\Users\\Asus\\.gradle\\daemon\\8.0\\arpit.com.farmis.app-main-35:\\layout\\card.xml"
+    },
+    {
+        "merged": "C:\\Users\\Asus\\.gradle\\daemon\\8.0\\arpit.com.farmis.app-mergeDebugResources-32:\\layout\\activity_weather.xml",
+        "source": "C:\\Users\\Asus\\.gradle\\daemon\\8.0\\arpit.com.farmis.app-main-35:\\layout\\activity_weather.xml"
+    },
+    {
+        "merged": "C:\\Users\\Asus\\.gradle\\daemon\\8.0\\arpit.com.farmis.app-mergeDebugResources-32:\\layout\\item_government_scheme.xml",
+        "source": "C:\\Users\\Asus\\.gradle\\daemon\\8.0\\arpit.com.farmis.app-main-35:\\layout\\item_government_scheme.xml"
+    },
+    {
+        "merged": "C:\\Users\\Asus\\.gradle\\daemon\\8.0\\arpit.com.farmis.app-mergeDebugResources-32:\\layout\\item_market_price.xml",
+        "source": "C:\\Users\\Asus\\.gradle\\daemon\\8.0\\arpit.com.farmis.app-main-35:\\layout\\item_market_price.xml"
     }
 ]

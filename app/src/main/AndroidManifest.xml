@@ -28,6 +28,42 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        
+        <activity
+            android:name=".WeatherActivity"
+            android:label="Weather Forecast"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:parentActivityName=".MainActivity" />
+            
+        <activity
+            android:name=".MarketPricesActivity"
+            android:label="Market Prices"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:parentActivityName=".MainActivity" />
+            
+        <activity
+            android:name=".GovernmentSchemesActivity"
+            android:label="Government Schemes"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:parentActivityName=".MainActivity" />
+            
+        <activity
+            android:name=".MarketplaceActivity"
+            android:label="Marketplace"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:parentActivityName=".MainActivity" />
+            
+        <activity
+            android:name=".CommunityActivity"
+            android:label="Farmer Community"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:parentActivityName=".MainActivity" />
+            
+        <activity
+            android:name=".KnowledgeActivity"
+            android:label="Knowledge Base"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:parentActivityName=".MainActivity" />
     </application>
 
 </manifest>

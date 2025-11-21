@@ -38,7 +38,7 @@
 21-->[androidx.core:core:1.9.0] C:\Users\Asus\.gradle\caches\transforms-3\a47a70b2352c84ef670df2281f916ef6\transformed\core-1.9.0\AndroidManifest.xml:26:22-94
 22
 23    <application
-23-->C:\Users\Asus\Downloads\mad\AAGS--Lets-Green-It\App\app\src\main\AndroidManifest.xml:11:5-31:19
+23-->C:\Users\Asus\Downloads\mad\AAGS--Lets-Green-It\App\app\src\main\AndroidManifest.xml:11:5-67:19
 24        android:allowBackup="true"
 24-->C:\Users\Asus\Downloads\mad\AAGS--Lets-Green-It\App\app\src\main\AndroidManifest.xml:12:9-35
 25        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
@@ -52,60 +52,121 @@
 29-->C:\Users\Asus\Downloads\mad\AAGS--Lets-Green-It\App\app\src\main\AndroidManifest.xml:17:9-69
 30        android:supportsRtl="true"
 30-->C:\Users\Asus\Downloads\mad\AAGS--Lets-Green-It\App\app\src\main\AndroidManifest.xml:15:9-35
-31        android:theme="@style/AppTheme"
-31-->C:\Users\Asus\Downloads\mad\AAGS--Lets-Green-It\App\app\src\main\AndroidManifest.xml:16:9-40
-32        android:usesCleartextTraffic="true" >
-32-->C:\Users\Asus\Downloads\mad\AAGS--Lets-Green-It\App\app\src\main\AndroidManifest.xml:18:9-44
-33        <uses-library
-33-->C:\Users\Asus\Downloads\mad\AAGS--Lets-Green-It\App\app\src\main\AndroidManifest.xml:19:9-88
-34            android:name="org.apache.http.legacy"
-34-->C:\Users\Asus\Downloads\mad\AAGS--Lets-Green-It\App\app\src\main\AndroidManifest.xml:19:23-60
-35            android:required="false" />
-35-->C:\Users\Asus\Downloads\mad\AAGS--Lets-Green-It\App\app\src\main\AndroidManifest.xml:19:61-85
-36
-37        <activity
-37-->C:\Users\Asus\Downloads\mad\AAGS--Lets-Green-It\App\app\src\main\AndroidManifest.xml:20:9-30:20
-38            android:name="arpit.com.farmis.MainActivity"
-38-->C:\Users\Asus\Downloads\mad\AAGS--Lets-Green-It\App\app\src\main\AndroidManifest.xml:21:13-41
-39            android:exported="true"
-39-->C:\Users\Asus\Downloads\mad\AAGS--Lets-Green-It\App\app\src\main\AndroidManifest.xml:22:13-36
-40            android:label="@string/app_name"
-40-->C:\Users\Asus\Downloads\mad\AAGS--Lets-Green-It\App\app\src\main\AndroidManifest.xml:23:13-45
-41            android:theme="@style/AppTheme.NoActionBar" >
-41-->C:\Users\Asus\Downloads\mad\AAGS--Lets-Green-It\App\app\src\main\AndroidManifest.xml:24:13-56
-42            <intent-filter>
-42-->C:\Users\Asus\Downloads\mad\AAGS--Lets-Green-It\App\app\src\main\AndroidManifest.xml:25:13-29:29
-43                <action android:name="android.intent.action.MAIN" />
-43-->C:\Users\Asus\Downloads\mad\AAGS--Lets-Green-It\App\app\src\main\AndroidManifest.xml:26:17-69
-43-->C:\Users\Asus\Downloads\mad\AAGS--Lets-Green-It\App\app\src\main\AndroidManifest.xml:26:25-66
-44
-45                <category android:name="android.intent.category.LAUNCHER" />
-45-->C:\Users\Asus\Downloads\mad\AAGS--Lets-Green-It\App\app\src\main\AndroidManifest.xml:28:17-77
-45-->C:\Users\Asus\Downloads\mad\AAGS--Lets-Green-It\App\app\src\main\AndroidManifest.xml:28:27-74
-46            </intent-filter>
-47        </activity>
-48
-49        <provider
-49-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Asus\.gradle\caches\transforms-3\862818b4160ce86e213a409b507a69e9\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
-50            android:name="androidx.startup.InitializationProvider"
-50-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Asus\.gradle\caches\transforms-3\862818b4160ce86e213a409b507a69e9\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:25:13-67
-51            android:authorities="arpit.com.farmis.androidx-startup"
-51-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Asus\.gradle\caches\transforms-3\862818b4160ce86e213a409b507a69e9\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:26:13-68
-52            android:exported="false" >
-52-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Asus\.gradle\caches\transforms-3\862818b4160ce86e213a409b507a69e9\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:27:13-37
-53            <meta-data
-53-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Asus\.gradle\caches\transforms-3\862818b4160ce86e213a409b507a69e9\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
-54                android:name="androidx.emoji2.text.EmojiCompatInitializer"
-54-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Asus\.gradle\caches\transforms-3\862818b4160ce86e213a409b507a69e9\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:30:17-75
-55                android:value="androidx.startup" />
-55-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Asus\.gradle\caches\transforms-3\862818b4160ce86e213a409b507a69e9\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:31:17-49
-56            <meta-data
-56-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\Asus\.gradle\caches\transforms-3\583968df45b86d17adffe900ca68a112\transformed\jetified-lifecycle-process-2.4.1\AndroidManifest.xml:31:13-33:52
-57                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
-57-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\Asus\.gradle\caches\transforms-3\583968df45b86d17adffe900ca68a112\transformed\jetified-lifecycle-process-2.4.1\AndroidManifest.xml:32:17-78
-58                android:value="androidx.startup" />
-58-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\Asus\.gradle\caches\transforms-3\583968df45b86d17adffe900ca68a112\transformed\jetified-lifecycle-process-2.4.1\AndroidManifest.xml:33:17-49
-59        </provider>
-60    </application>
-61
-62</manifest>
+31        android:testOnly="true"
+32        android:theme="@style/AppTheme"
+32-->C:\Users\Asus\Downloads\mad\AAGS--Lets-Green-It\App\app\src\main\AndroidManifest.xml:16:9-40
+33        android:usesCleartextTraffic="true" >
+33-->C:\Users\Asus\Downloads\mad\AAGS--Lets-Green-It\App\app\src\main\AndroidManifest.xml:18:9-44
+34        <uses-library
+34-->C:\Users\Asus\Downloads\mad\AAGS--Lets-Green-It\App\app\src\main\AndroidManifest.xml:19:9-88
+35            android:name="org.apache.http.legacy"
+35-->C:\Users\Asus\Downloads\mad\AAGS--Lets-Green-It\App\app\src\main\AndroidManifest.xml:19:23-60
+36            android:required="false" />
+36-->C:\Users\Asus\Downloads\mad\AAGS--Lets-Green-It\App\app\src\main\AndroidManifest.xml:19:61-85
+37
+38        <activity
+38-->C:\Users\Asus\Downloads\mad\AAGS--Lets-Green-It\App\app\src\main\AndroidManifest.xml:20:9-30:20
+39            android:name="arpit.com.farmis.MainActivity"
+39-->C:\Users\Asus\Downloads\mad\AAGS--Lets-Green-It\App\app\src\main\AndroidManifest.xml:21:13-41
+40            android:exported="true"
+40-->C:\Users\Asus\Downloads\mad\AAGS--Lets-Green-It\App\app\src\main\AndroidManifest.xml:22:13-36
+41            android:label="@string/app_name"
+41-->C:\Users\Asus\Downloads\mad\AAGS--Lets-Green-It\App\app\src\main\AndroidManifest.xml:23:13-45
+42            android:theme="@style/AppTheme.NoActionBar" >
+42-->C:\Users\Asus\Downloads\mad\AAGS--Lets-Green-It\App\app\src\main\AndroidManifest.xml:24:13-56
+43            <intent-filter>
+43-->C:\Users\Asus\Downloads\mad\AAGS--Lets-Green-It\App\app\src\main\AndroidManifest.xml:25:13-29:29
+44                <action android:name="android.intent.action.MAIN" />
+44-->C:\Users\Asus\Downloads\mad\AAGS--Lets-Green-It\App\app\src\main\AndroidManifest.xml:26:17-69
+44-->C:\Users\Asus\Downloads\mad\AAGS--Lets-Green-It\App\app\src\main\AndroidManifest.xml:26:25-66
+45
+46                <category android:name="android.intent.category.LAUNCHER" />
+46-->C:\Users\Asus\Downloads\mad\AAGS--Lets-Green-It\App\app\src\main\AndroidManifest.xml:28:17-77
+46-->C:\Users\Asus\Downloads\mad\AAGS--Lets-Green-It\App\app\src\main\AndroidManifest.xml:28:27-74
+47            </intent-filter>
+48        </activity>
+49        <activity
+49-->C:\Users\Asus\Downloads\mad\AAGS--Lets-Green-It\App\app\src\main\AndroidManifest.xml:32:9-36:58
+50            android:name="arpit.com.farmis.WeatherActivity"
+50-->C:\Users\Asus\Downloads\mad\AAGS--Lets-Green-It\App\app\src\main\AndroidManifest.xml:33:13-44
+51            android:label="Weather Forecast"
+51-->C:\Users\Asus\Downloads\mad\AAGS--Lets-Green-It\App\app\src\main\AndroidManifest.xml:34:13-45
+52            android:parentActivityName="arpit.com.farmis.MainActivity"
+52-->C:\Users\Asus\Downloads\mad\AAGS--Lets-Green-It\App\app\src\main\AndroidManifest.xml:36:13-55
+53            android:theme="@style/AppTheme.NoActionBar" />
+53-->C:\Users\Asus\Downloads\mad\AAGS--Lets-Green-It\App\app\src\main\AndroidManifest.xml:35:13-56
+54        <activity
+54-->C:\Users\Asus\Downloads\mad\AAGS--Lets-Green-It\App\app\src\main\AndroidManifest.xml:38:9-42:58
+55            android:name="arpit.com.farmis.MarketPricesActivity"
+55-->C:\Users\Asus\Downloads\mad\AAGS--Lets-Green-It\App\app\src\main\AndroidManifest.xml:39:13-49
+56            android:label="Market Prices"
+56-->C:\Users\Asus\Downloads\mad\AAGS--Lets-Green-It\App\app\src\main\AndroidManifest.xml:40:13-42
+57            android:parentActivityName="arpit.com.farmis.MainActivity"
+57-->C:\Users\Asus\Downloads\mad\AAGS--Lets-Green-It\App\app\src\main\AndroidManifest.xml:42:13-55
+58            android:theme="@style/AppTheme.NoActionBar" />
+58-->C:\Users\Asus\Downloads\mad\AAGS--Lets-Green-It\App\app\src\main\AndroidManifest.xml:41:13-56
+59        <activity
+59-->C:\Users\Asus\Downloads\mad\AAGS--Lets-Green-It\App\app\src\main\AndroidManifest.xml:44:9-48:58
+60            android:name="arpit.com.farmis.GovernmentSchemesActivity"
+60-->C:\Users\Asus\Downloads\mad\AAGS--Lets-Green-It\App\app\src\main\AndroidManifest.xml:45:13-54
+61            android:label="Government Schemes"
+61-->C:\Users\Asus\Downloads\mad\AAGS--Lets-Green-It\App\app\src\main\AndroidManifest.xml:46:13-47
+62            android:parentActivityName="arpit.com.farmis.MainActivity"
+62-->C:\Users\Asus\Downloads\mad\AAGS--Lets-Green-It\App\app\src\main\AndroidManifest.xml:48:13-55
+63            android:theme="@style/AppTheme.NoActionBar" />
+63-->C:\Users\Asus\Downloads\mad\AAGS--Lets-Green-It\App\app\src\main\AndroidManifest.xml:47:13-56
+64        <activity
+64-->C:\Users\Asus\Downloads\mad\AAGS--Lets-Green-It\App\app\src\main\AndroidManifest.xml:50:9-54:58
+65            android:name="arpit.com.farmis.MarketplaceActivity"
+65-->C:\Users\Asus\Downloads\mad\AAGS--Lets-Green-It\App\app\src\main\AndroidManifest.xml:51:13-48
+66            android:label="Marketplace"
+66-->C:\Users\Asus\Downloads\mad\AAGS--Lets-Green-It\App\app\src\main\AndroidManifest.xml:52:13-40
+67            android:parentActivityName="arpit.com.farmis.MainActivity"
+67-->C:\Users\Asus\Downloads\mad\AAGS--Lets-Green-It\App\app\src\main\AndroidManifest.xml:54:13-55
+68            android:theme="@style/AppTheme.NoActionBar" />
+68-->C:\Users\Asus\Downloads\mad\AAGS--Lets-Green-It\App\app\src\main\AndroidManifest.xml:53:13-56
+69        <activity
+69-->C:\Users\Asus\Downloads\mad\AAGS--Lets-Green-It\App\app\src\main\AndroidManifest.xml:56:9-60:58
+70            android:name="arpit.com.farmis.CommunityActivity"
+70-->C:\Users\Asus\Downloads\mad\AAGS--Lets-Green-It\App\app\src\main\AndroidManifest.xml:57:13-46
+71            android:label="Farmer Community"
+71-->C:\Users\Asus\Downloads\mad\AAGS--Lets-Green-It\App\app\src\main\AndroidManifest.xml:58:13-45
+72            android:parentActivityName="arpit.com.farmis.MainActivity"
+72-->C:\Users\Asus\Downloads\mad\AAGS--Lets-Green-It\App\app\src\main\AndroidManifest.xml:60:13-55
+73            android:theme="@style/AppTheme.NoActionBar" />
+73-->C:\Users\Asus\Downloads\mad\AAGS--Lets-Green-It\App\app\src\main\AndroidManifest.xml:59:13-56
+74        <activity
+74-->C:\Users\Asus\Downloads\mad\AAGS--Lets-Green-It\App\app\src\main\AndroidManifest.xml:62:9-66:58
+75            android:name="arpit.com.farmis.KnowledgeActivity"
+75-->C:\Users\Asus\Downloads\mad\AAGS--Lets-Green-It\App\app\src\main\AndroidManifest.xml:63:13-46
+76            android:label="Knowledge Base"
+76-->C:\Users\Asus\Downloads\mad\AAGS--Lets-Green-It\App\app\src\main\AndroidManifest.xml:64:13-43
+77            android:parentActivityName="arpit.com.farmis.MainActivity"
+77-->C:\Users\Asus\Downloads\mad\AAGS--Lets-Green-It\App\app\src\main\AndroidManifest.xml:66:13-55
+78            android:theme="@style/AppTheme.NoActionBar" />
+78-->C:\Users\Asus\Downloads\mad\AAGS--Lets-Green-It\App\app\src\main\AndroidManifest.xml:65:13-56
+79
+80        <provider
+80-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Asus\.gradle\caches\transforms-3\862818b4160ce86e213a409b507a69e9\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
+81            android:name="androidx.startup.InitializationProvider"
+81-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Asus\.gradle\caches\transforms-3\862818b4160ce86e213a409b507a69e9\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:25:13-67
+82            android:authorities="arpit.com.farmis.androidx-startup"
+82-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Asus\.gradle\caches\transforms-3\862818b4160ce86e213a409b507a69e9\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:26:13-68
+83            android:exported="false" >
+83-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Asus\.gradle\caches\transforms-3\862818b4160ce86e213a409b507a69e9\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:27:13-37
+84            <meta-data
+84-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Asus\.gradle\caches\transforms-3\862818b4160ce86e213a409b507a69e9\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
+85                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+85-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Asus\.gradle\caches\transforms-3\862818b4160ce86e213a409b507a69e9\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:30:17-75
+86                android:value="androidx.startup" />
+86-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Asus\.gradle\caches\transforms-3\862818b4160ce86e213a409b507a69e9\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:31:17-49
+87            <meta-data
+87-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\Asus\.gradle\caches\transforms-3\583968df45b86d17adffe900ca68a112\transformed\jetified-lifecycle-process-2.4.1\AndroidManifest.xml:31:13-33:52
+88                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+88-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\Asus\.gradle\caches\transforms-3\583968df45b86d17adffe900ca68a112\transformed\jetified-lifecycle-process-2.4.1\AndroidManifest.xml:32:17-78
+89                android:value="androidx.startup" />
+89-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\Asus\.gradle\caches\transforms-3\583968df45b86d17adffe900ca68a112\transformed\jetified-lifecycle-process-2.4.1\AndroidManifest.xml:33:17-49
+90        </provider>
+91    </application>
+92
+93</manifest>
