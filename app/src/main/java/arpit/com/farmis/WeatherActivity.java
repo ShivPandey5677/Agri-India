@@ -37,20 +37,20 @@ public class WeatherActivity extends AppCompatActivity {
     }
 
     private void loadWeatherData() {
-        // Sample weather data
-        locationText.setText("Your Farm Location");
-        currentTempText.setText("28°C");
-        currentConditionText.setText("Partly Cloudy - Good for farming");
+        // Current weather data based on your screenshot
+        locationText.setText("Noida");
+        currentTempText.setText("20°C");
+        currentConditionText.setText("Sunny Day Ahead - Perfect for farming");
 
-        // 7-day forecast data
+        // 7-day forecast data starting from 11/22
         ArrayList<WeatherData> weatherList = new ArrayList<>();
-        weatherList.add(new WeatherData("Today", "28°C", "22°C", "Partly Cloudy", "Good for irrigation"));
-        weatherList.add(new WeatherData("Tomorrow", "30°C", "24°C", "Sunny", "Perfect for harvesting"));
-        weatherList.add(new WeatherData("Day 3", "26°C", "20°C", "Light Rain", "Avoid spraying pesticides"));
-        weatherList.add(new WeatherData("Day 4", "25°C", "19°C", "Heavy Rain", "Indoor work recommended"));
-        weatherList.add(new WeatherData("Day 5", "27°C", "21°C", "Cloudy", "Good for planting"));
-        weatherList.add(new WeatherData("Day 6", "29°C", "23°C", "Sunny", "Ideal farming conditions"));
-        weatherList.add(new WeatherData("Day 7", "31°C", "25°C", "Hot", "Early morning work advised"));
+        weatherList.add(new WeatherData("11/22 Today", "26°C", "12°C", "☀️ Sunny", "Perfect for irrigation and planting"));
+        weatherList.add(new WeatherData("11/23 Tomorrow", "25°C", "12°C", "☀️ Sunny", "Great for outdoor farming activities"));
+        weatherList.add(new WeatherData("11/24 Mon", "25°C", "11°C", "☀️ Sunny", "Excellent for crop maintenance"));
+        weatherList.add(new WeatherData("11/25 Tue", "24°C", "10°C", "☀️ Sunny", "Good for fertilizer application"));
+        weatherList.add(new WeatherData("11/26 Wed", "24°C", "10°C", "☀️ Sunny", "Suitable for pest control"));
+        weatherList.add(new WeatherData("11/27 Thu", "24°C", "11°C", "☀️ Sunny", "Perfect for harvesting"));
+        weatherList.add(new WeatherData("11/28 Fri", "23°C", "9°C", "☀️ Sunny", "Ideal for seed sowing"));
 
         WeatherAdapter adapter = new WeatherAdapter(weatherList);
         weatherRecyclerView.setAdapter(adapter);

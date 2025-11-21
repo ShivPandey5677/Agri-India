@@ -52,6 +52,10 @@
         "source": "C:\\Users\\Asus\\.gradle\\daemon\\8.0\\arpit.com.farmis.app-main-35:\\layout\\content_main.xml"
     },
     {
+        "merged": "C:\\Users\\Asus\\.gradle\\daemon\\8.0\\arpit.com.farmis.app-merged_res-33:\\drawable_ic_menu_hamburger.xml.flat",
+        "source": "C:\\Users\\Asus\\.gradle\\daemon\\8.0\\arpit.com.farmis.app-main-35:\\drawable\\ic_menu_hamburger.xml"
+    },
+    {
         "merged": "C:\\Users\\Asus\\.gradle\\daemon\\8.0\\arpit.com.farmis.app-merged_res-33:\\drawable_ic_menu_manage.xml.flat",
         "source": "C:\\Users\\Asus\\.gradle\\daemon\\8.0\\arpit.com.farmis.app-main-35:\\drawable\\ic_menu_manage.xml"
     },
@@ -72,10 +76,6 @@
         "source": "C:\\Users\\Asus\\.gradle\\daemon\\8.0\\arpit.com.farmis.app-main-35:\\drawable\\phone.xml"
     },
     {
-        "merged": "arpit.com.farmis.app-merged_res-33:/layout_app_bar_main.xml.flat",
-        "source": "arpit.com.farmis.app-main-35:/layout/app_bar_main.xml"
-    },
-    {
         "merged": "C:\\Users\\Asus\\.gradle\\daemon\\8.0\\arpit.com.farmis.app-merged_res-33:\\drawable_ic_humidity.xml.flat",
         "source": "C:\\Users\\Asus\\.gradle\\daemon\\8.0\\arpit.com.farmis.app-main-35:\\drawable\\ic_humidity.xml"
     },
@@ -86,10 +86,6 @@
     {
         "merged": "C:\\Users\\Asus\\.gradle\\daemon\\8.0\\arpit.com.farmis.app-merged_res-33:\\layout_activity_weather.xml.flat",
         "source": "C:\\Users\\Asus\\.gradle\\daemon\\8.0\\arpit.com.farmis.app-main-35:\\layout\\activity_weather.xml"
-    },
-    {
-        "merged": "arpit.com.farmis.app-merged_res-33:/drawable_ic_menu_hamburger.xml.flat",
-        "source": "arpit.com.farmis.app-main-35:/drawable/ic_menu_hamburger.xml"
     },
     {
         "merged": "C:\\Users\\Asus\\.gradle\\daemon\\8.0\\arpit.com.farmis.app-merged_res-33:\\layout_nav_header_main.xml.flat",
@@ -146,6 +142,10 @@
     {
         "merged": "C:\\Users\\Asus\\.gradle\\daemon\\8.0\\arpit.com.farmis.app-merged_res-33:\\drawable_ic_menu_send.xml.flat",
         "source": "C:\\Users\\Asus\\.gradle\\daemon\\8.0\\arpit.com.farmis.app-main-35:\\drawable\\ic_menu_send.xml"
+    },
+    {
+        "merged": "arpit.com.farmis.app-merged_res-33:/layout_activity_weather.xml.flat",
+        "source": "arpit.com.farmis.app-main-35:/layout/activity_weather.xml"
     },
     {
         "merged": "C:\\Users\\Asus\\.gradle\\daemon\\8.0\\arpit.com.farmis.app-merged_res-33:\\layout_activity_main.xml.flat",

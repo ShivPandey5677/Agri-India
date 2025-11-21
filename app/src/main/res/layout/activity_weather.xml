@@ -43,16 +43,25 @@
                         android:id="@+id/location_text"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="Your Farm Location"
-                        android:textSize="18sp"
+                        android:text="Noida"
+                        android:textSize="20sp"
                         android:textColor="@android:color/white"
                         android:layout_gravity="center" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="☀️ Sunny Day Ahead"
+                        android:textSize="18sp"
+                        android:textColor="@android:color/white"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="8dp" />
 
                     <TextView
                         android:id="@+id/current_temp"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="28°C"
+                        android:text="20°C"
                         android:textSize="48sp"
                         android:textStyle="bold"
                         android:textColor="@android:color/white"
@@ -63,7 +72,7 @@
                         android:id="@+id/current_condition"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="Partly Cloudy - Good for farming"
+                        android:text="Perfect farming weather today"
                         android:textSize="16sp"
                         android:textColor="@android:color/white"
                         android:layout_gravity="center"
@@ -72,6 +81,8 @@
                 </LinearLayout>
 
             </androidx.cardview.widget.CardView>
+
+
 
             <!-- 7-Day Forecast Title -->
             <TextView
